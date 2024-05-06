@@ -1,0 +1,20 @@
+﻿<Window x:Class="giga2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:giga2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition Height="0.4*"/>
+        </Grid.RowDefinitions>
+
+        <TextBox x:Name="tbUserInput" Grid.Row="0"/>
+        <TextBlock x:Name="tbAnswer" Grid.Row="1"/>
+        <Button Click="btnSendMessage_Click" Grid.Row="2" Content="Оправить" FontSize="30"/>
+    </Grid>
+</Window>

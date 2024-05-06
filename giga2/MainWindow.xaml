@@ -13,8 +13,22 @@
             <RowDefinition Height="0.4*"/>
         </Grid.RowDefinitions>
 
-        <TextBox x:Name="tbUserInput" Grid.Row="0"/>
-        <TextBlock x:Name="tbAnswer" Grid.Row="1"/>
+        <ScrollViewer Grid.Row="0" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+            <TextBox x:Name="tbUserInput" 
+                     Text="Gdfkfkfkfkf fkfkfkfkf fkfkfkfkfkf"
+                     FontFamily="Montseratt"
+                     FontSize="30"
+                     Margin="20"
+                     TextWrapping="Wrap"/>
+        </ScrollViewer>
+
+        <ScrollViewer Grid.Row="1" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+            <TextBlock x:Name="tbAnswer"
+                       FontFamily="Montseratt"
+                        FontSize="30"
+                        Margin="20"
+                        TextWrapping="Wrap"/>
+        </ScrollViewer>
         <Button Click="btnSendMessage_Click" Grid.Row="2" Content="Оправить" FontSize="30"/>
     </Grid>
 </Window>

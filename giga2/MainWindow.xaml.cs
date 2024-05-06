@@ -15,7 +15,7 @@ namespace giga2
         public MainWindow()
         {
             InitializeComponent();
-            _gigaChat = new GigaChat(Scope.GIGACHAT_API_PERS,"MDcyNTZjMzYtNzhlNC00NGNlLTljM2MtZDc4Yjk5ZDYyM2FjOjIzNGZkMjE2LWYxYjAtNGMwNS05YTc2LWZhZmUxOGY0Njc4NA=="); // Вставьте свои авторизационные данные
+            _gigaChat = new GigaChat(Scope.GIGACHAT_API_PERS,"MDcyNTZjMzYtNzhlNC00NGNlLTljM2MtZDc4Yjk5ZDYyM2FjOjIzNGZkMjE2LWYxYjAtNGMwNS05YTc2LWZhZmUxOGY0Njc4NA=="); // авторизационные данные
         }
 
         private async void btnSendMessage_Click(object sender, RoutedEventArgs e)
